@@ -104,7 +104,7 @@ header{
 /* about-me starts */
 #about-me{
     padding: 4% 10%;
-    background: #e8ded2;
+    background: #f6e4ce;
 }
 
 #about-me p{
@@ -113,12 +113,26 @@ header{
     font-weight: light;
 }
 #about-me a{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: lighter;
     color: black;
     text-decoration: underline;
 }
+.basic-desc button{
+    background: #f28473;
+    color: white;
+}
 
+
+.basic-desc button:hover{
+    background: #de5642;
+    color: white;
+    transform: scale(1.071);
+}
+.basic-desc i, .skill-icon{
+    background: #f28473;
+    color: white;
+}
 .achieve-desc span{
     font-weight: 700 !important;
 }
@@ -133,7 +147,7 @@ header{
 /* tutorial starts  */
 #tutorial{
     padding: 4% 10%;
-    background: #a3d2ca;
+    background: #c9e9f5;
 }
 
 .card{
@@ -152,23 +166,11 @@ header{
     padding: 5%;
     background: #5eaaa8;
 }
-.carousel-item{
-    text-align: center;
-    padding: 7% 15%;
-    font-style: italic;
-    font-size: 1.2rem;
-}
-.feedback-img{
-    width: 120px;
-    height: auto;
-    margin-bottom: 5px;
-}
-/* feedback end */
 
 /* contact starts */
 #contact{
     padding: 2% 10%;
-    background: #5eaaa8;
+    background: #e8a6a6;
 }
 .form-group label{
     margin-bottom: 0;
@@ -179,11 +181,11 @@ header{
 /* footer starts  */
 footer{
     padding: 1% 10%;
-    background: #056676;
+    background: #92918e;
 }
 
 footer a {
-    color: white;
+    color: rgb(88, 2, 2);
     margin: 0 10px;
 }
 footer a:hover{
